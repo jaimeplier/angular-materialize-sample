@@ -7,8 +7,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ng build --aot -prod"
   },
+  "engine": { "node": "8.11.1", "npm": "6.0.1" },
   "private": true,
   "dependencies": {
     "@angular/cli": "~6.0.3",
